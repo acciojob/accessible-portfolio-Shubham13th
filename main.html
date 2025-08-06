@@ -7,21 +7,37 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-	<!-- <header> -->
-		<img src="https://images.unsplash.com/photo-1516195851888-6f1a981a862e?q=80&w=405&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Riya" width="100">
-		<h1>shubham sharma</h1>
-		<ul>
-			<li>Frontend</li>
-			<li>Backend</li>
-			<li>Database</li>
-			<li>Data Structure</li>
-		</ul>
-		<nav>
-			<a href="#resume">Resume</a>
-			<a href="#leetcode">Leetcode</a>
-		</nav>
-	<!-- </header> -->
+	<header>
+        <h1 role="heading">My Accessible Portfolio</h1>
+    </header>
+
+    <nav role="navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+        <section id="about">
+            <img role="img" src="profile.jpg" alt="Profile photo of the portfolio owner">
+            <p>Hello! I'm Shubham, a passionate web developer focused on creating responsive and accessible websites for all users, including those with disabilities.</p>
+        </section>
+
+        <section id="skills">
+            <h2>My Skills</h2>
+            <ul role="list">
+                <li role="listitem">HTML & CSS</li>
+                <li role="listitem">JavaScript</li>
+                <li role="listitem">React.js</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2025 Shubham Sharma. All Rights Reserved.
+    </footer>
+
+	
     <script type="text/javascript" src="./script.js">
 </script>
 
